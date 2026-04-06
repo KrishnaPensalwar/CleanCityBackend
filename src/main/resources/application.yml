@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: CleanCityBackend
+
+jwt:
+  # Base64 encoded secure 256-bit or 512-bit string. Example secret, change in production.
+  secret: aW1wbGVtZW50ZWRfY2xlYW5fY2l0eV9zZWNyZXRfa2V5X2Zvcl9qd3Rfc2lnbmF0dXJlX2Nhbm5vdF9iZV9sZWFrZWQ=
+  # 24 Hours in milliseconds
+  expirationMs: 86400000 
